@@ -1,0 +1,76 @@
+/* General styles for Skills section */
+.Skills {
+    margin-top: 30px;
+  }
+  
+  .mhd {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .whd {
+    margin-bottom: 30px;
+  }
+  
+  .whhc h4 {
+    margin-top: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .whc p {
+    font-size: 1em;
+    color: #777;
+    margin-top: 10px;
+  }
+  
+  /* Add padding between the logo container */
+  .sl-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px; /* Adjust size */
+    height: 120px; /* Adjust size */
+    margin-bottom: 15px;
+    border-radius: 50%; /* Makes it circular */
+    padding: 6px; /* Space between the border and the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* To position the pseudo-element */
+    background: #fff; /* Optional: Set background color */
+    
+  }
+  
+  
+  
+  .sl-con::before {
+    content: '';
+    position: absolute;
+    top: -4px; /* Adjust border thickness */
+    left: -4px; /* Adjust border thickness */
+    right: -4px; /* Adjust border thickness */
+    bottom: -4px; /* Adjust border thickness */
+    border-radius: 50%;
+    background: linear-gradient(45deg, blue, orange); /* Radiant gradient */
+    z-index: -1; /* Place the pseudo-element behind the content */
+  }
+  
+  /* Ensuring the image is circular and fits well inside the container */
+  .slg img {
+    width: 100%; /* Ensures the image fills the container */
+    height: 100%;
+    border-radius: 50%; /* Keeps the image circular */
+    object-fit: cover; /* Ensures image maintains aspect ratio */
+  }
+  
+  /* Responsive behavior (optional) */
+  @media (max-width: 768px) {
+    .col-md-3 {
+      margin-bottom: 20px;
+    }
+    .sl-con {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  

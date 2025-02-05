@@ -1,0 +1,108 @@
+.CForm {
+    background-color: rgb(103, 115, 162);
+    padding: 30px;
+}
+
+.cf-l {
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(22, 31, 53);
+    color: white;
+}
+
+.cf-l p {
+    font-size: 20px;
+}
+
+.cfd-cont h3 {
+    font-size: 25px;
+}
+
+
+.cfd-cont p {
+    margin: 0px;
+    color: gray;
+    font-size: 18px;
+}
+
+.cfd-cont a {
+    text-decoration: none;
+    color: rgb(239, 127, 25);
+    font-size: 20px;
+}
+
+.cf-txt p {
+    font-size: 20px;
+    color: rgb(127, 125, 119);
+}
+
+.icn {
+    font-size: 23px;
+}
+
+.cf-dwn {
+    border: 1px solid gray;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.cf-r {
+    border: 1px solid grey;
+    /* padding: 25px; */
+    border-radius: 20px;
+    background-color: rgba(22, 31, 53);
+    color: white;
+}
+
+.cf-frm-cont p {
+    font-size: 20px;
+    color: grey;
+}
+
+
+.cf-frm {
+    display: flex;
+    justify-content: center;
+}
+
+.cf-frm input {
+    width: 100%;
+}
+
+.cf-frm select {
+    width: 100%;
+}
+
+/* Loader styles */
+.loader-container {
+    margin-top: 20px;
+    width: 100%;
+    height: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.loader-bar {
+    width: 0;
+    height: 100%;
+    background-color: #4caf50;
+    /* Green color for the loader */
+    animation: loaderAnimation 2s infinite;
+}
+
+@keyframes loaderAnimation {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 100%;
+    }
+
+    100% {
+        width: 0;
+    }
+}

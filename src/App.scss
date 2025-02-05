@@ -1,0 +1,26 @@
+.whts-img img {
+  width: 5rem;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 1000;
+  transition: transform 0.3s ease;
+
+}
+
+.whts-img img:hover {
+  transform: scale(1.1);
+}
+
+.TP-Img img {
+  width: 5rem;
+  position: fixed;
+  bottom: 120px;
+  z-index: 1000;
+  right: 20px;
+  transition: transform 0.3s ease;
+}
+
+.TP-Img img:hover {
+  transform: scale(1.1);
+}

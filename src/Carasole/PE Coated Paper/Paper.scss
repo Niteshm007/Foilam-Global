@@ -1,0 +1,115 @@
+.Paper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outer-br {
+  width: 100%;
+  height: 70vh;
+  border-radius: 50px;
+  border: 5px solid rgb(245, 134, 52) !important;
+}
+
+.middle-br {
+  width: 100% !important;
+  height: 60vh;
+  border-radius: 30px;
+  border: 5px solid rgb(0, 175, 239) !important;
+}
+
+.inner-br {
+  width: 100% !important;
+  border-radius: 30px;
+  height: 60vh;
+  border: 3px solid rgb(149, 209, 36) !important;
+  background: url('../../Images/1.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
+  background-color: rgba(212, 185, 185, 0.5); /* Light white overlay */
+}
+
+.inner-txt {
+margin-top:355px !important;
+font-size: 13px !important;
+color: black;
+}
+
+.caras-btn {
+position: relative;
+padding: 7px 14px;
+font-size: 20px;
+border-radius: 30px;
+border: none; /* No border for the button */
+background-color: rgb(239, 127, 25);
+color: white;
+cursor: pointer;
+overflow: hidden;
+z-index: 1;
+transition: color 0.4s ease-in-out;
+margin-top: 15px;
+}
+
+.caras-btn::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 0;
+height: 100%;
+background-color: rgb(3, 15, 39);
+z-index: -1;
+transition: width 0.4s ease-in-out;
+/* Removed the border */
+}
+
+.caras-btn:hover::before {
+width: 100%;
+}
+
+.caras-btn:hover {
+color: white;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) { /* Adjust the width as needed */
+.inner-br p {
+  font-size: 18px !important;
+  position: relative;
+  bottom: 230px;
+  text-align: center !important;
+}
+
+
+.inner-br h1 {
+  font-size: 22px !important; /* Smaller font size for mobile */
+  white-space: nowrap !important; /* Prevent line breaks */
+  position: relative;
+  bottom: 230px;
+  text-align: center !important;
+}
+
+.inner-txt {
+  text-align: center;
+}
+
+.caras-sm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+.caras-btn {
+text-align: center !important;
+}
+
+p {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 4rem;
+}

@@ -1,0 +1,116 @@
+.second-section {
+  margin-top: 25px;
+}
+
+.heading-text {
+  font-size: 2.3rem;
+}
+
+.card-2 {
+  height: 45vh;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.inner-card {
+  width: 100%;
+  height: 40vh;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  overflow: hidden;
+}
+
+.inner-card .second-txt{
+  margin-bottom: 20px;
+}
+
+.second-txt .dropdown-item {
+  font-size: 16px;  /* Initial font size */
+  transition: transform 0.3s ease, font-size 0.3s ease;  /* Smooth transition for scale and font size */
+}
+
+.second-txt .dropdown-item:hover {
+  transform: scale(1.1); /* Scale the link */
+  font-size: 18px; /* Increase the font size on hover */
+}
+
+.img-1 {
+  background: url('../../../Images/H1.webp');
+  background-size: cover;
+}
+
+.img-2 {
+  background: url('../../../Images/H2.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img-3 {
+  background: url('../../../Images/H3.webp');
+  background-size: cover;
+}
+.img-4 {
+  background: url('../../../Images/H4.webp');
+  background-size: cover;
+}
+.img-5 {
+  background: url('../../../Images/H5.jpg');
+  background-size: cover;
+}
+
+.crd-img img {
+  object-fit: auto !important;
+  height: 300px !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(18, 31, 52, 0.9);
+  opacity: 1;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  text-align: center;
+  transform: translateX(0);
+}
+
+.hover-overlay a {
+  text-decoration: none;
+  font-size: 17px;
+  color: grey;
+}
+
+.hover-overlay a:hover {
+  color: rgb(239, 127, 25);
+}
+
+.inner-card:hover .hover-overlay {
+  transform: translateX(-100%);
+}
+
+.second-txt {
+  color: white;
+  font-size: 1.5rem;
+  visibility: visible;
+  transition: visibility 0s linear 0.3s;
+}
+
+.inner-card:hover .second-txt {
+  visibility: visible;
+  transition: visibility 0s linear 0s;
+}

@@ -1,0 +1,155 @@
+.who {
+  margin-top: 30px;
+}
+
+.who-l-txt {
+  font-size: 20px;
+  text-align: justify;
+  color: rgb(103, 103, 107);
+}
+
+/* Set font size for accordion items */
+.who .accordion-item {
+  margin-bottom: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+  font-size: 20px !important;  /* Added this line to set font size for accordion items */
+}
+
+.who .accordion-item:first-of-type {
+  border-radius: 20px 20px 20px 20px;
+}
+
+.who .accordion-item:last-of-type {
+  border-radius: 20px 20px 20px 20px;
+}
+
+.who .accordion-header {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.who .accordion-header:hover {
+  color: rgb(0, 175, 239) !important;
+}
+
+.who .accordion-item .accordion-button:not(.collapsed) {
+  background-color: rgb(0, 175, 239) !important;
+  color: white;
+}
+
+.who .accordion-button {
+  color: black;
+  background-color: rgb(138, 121, 121) !important;
+  border: none;
+}
+
+.who .accordion-button.collapsed {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.who .accordion-button.collapsed:hover {
+  color: rgb(0, 175, 239) !important;
+}
+
+.who .accordion-button:not(.collapsed) {
+  background-color: rgb(0, 175, 239) !important;
+  color: white;
+}
+
+.who .accordion-collapse {
+  background-color: white;
+  border: 1px solid rgb(0, 175, 239);
+}
+
+.who .wh-btn {
+  position: relative;
+  padding: 10px 17rem;
+  border-radius: 30px;
+  border: 2px solid rgb(0, 175, 239);
+  background-color: white;
+  color: rgb(0, 175, 239);
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 0.4s ease-in-out;
+}
+
+.who .wh-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: rgb(0, 175, 239);
+  z-index: -1;
+  transition: width 0.4s ease-in-out;
+}
+
+.who .wh-btn:hover::before {
+  width: 100%;
+}
+
+.who .wh-btn:hover {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .who .wl-btn {
+    padding: 10px 5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .who .wl-btn {
+    padding: 10px 8rem;
+  }
+}
+.wh-btn {
+  position: relative;
+  padding: 10px 17rem;
+  border-radius: 30px;
+  border: 2px solid rgb(239, 127, 25);
+  background-color: white;
+  color: rgb(239, 127, 25);
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 0.4s ease-in-out;
+}
+
+.wh-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: rgb(243, 92, 39);
+  z-index: -1;
+  transition: width 0.4s ease-in-out;
+}
+
+.wh-btn:hover::before {
+  width: 100%;
+}
+
+.wh-btn:hover {
+  color: white;
+}
+
+/* Responsive for mobile devices */
+@media (max-width: 768px) {
+  .wh-btn {
+    padding: 10px 5rem; /* Reduced padding for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .wh-btn {
+    padding: 10px 8rem; /* Further reduced padding for extra small screens */
+  }
+}

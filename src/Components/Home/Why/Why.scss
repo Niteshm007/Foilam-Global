@@ -1,0 +1,30 @@
+.Why {
+    margin-top: 30px;
+  }
+  
+
+  .whlg img{
+    width:10rem ;
+  }
+
+  /* Add this keyframe animation */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Modify existing whlg class */
+.whlg {
+  animation: float 1.5s ease-in-out infinite;
+  /* Add these to maintain proper element positioning */
+  display: inline-block;
+  position: relative;
+}
+  

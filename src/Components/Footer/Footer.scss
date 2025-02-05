@@ -1,0 +1,62 @@
+.Footer {
+  background-color: rgb(190, 238, 255);
+}
+
+.w-f{
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.mid-f li{
+font-size: 20px !important;
+}
+.left-f p{
+font-size: 17px;
+text-align: justify;
+}
+
+.f-icon{
+  color: rgb(239, 127, 25);
+  font-size: 30px;
+}
+
+.txt p{
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.mid-f li{
+font-size: 20px;
+}
+
+
+
+.ftr-social{
+  font-size: 40px;
+  display: flex;
+}
+
+.ftr-icn{
+  color: rgb(239, 127, 27);
+  margin-right: 10px;
+}
+
+.ftr-icn:hover{
+  color: rgb(239, 127, 27);
+}
+
+.Footer .mid-f ul li a {
+  color: white; /* Set your preferred base link color (blue in this example) */
+  text-decoration: none; /* Remove underline */
+  font-weight: normal; /* Optional: make the link font weight normal */
+  transition: color 0.3s ease; /* Smooth transition for color change on hover */
+  font-size: 18px !important;
+}
+
+/* Hover effect for links */
+.Footer .mid-f ul li a:hover {
+  color: #FF5722; /* Change color on hover (red in this example) */
+}
+
+

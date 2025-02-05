@@ -1,0 +1,42 @@
+/* Reset the default margin and ensure the body takes full height */
+body, html {
+    margin: 0;          /* Remove default margin */
+    height: 100%;        /* Ensure the body takes the full height of the viewport */
+  }
+  
+  /* Style for the .Nit container */
+  .Nit {
+    display: flex;           /* Use flexbox layout */
+    justify-content: flex-end; /* Align the content to the right */
+    align-items: center;     /* Vertically center the content */
+    height: 100%;            /* Ensure it takes full height of the viewport */
+    font-size: 13px;         /* Optional: Adjust the font size */
+    background-color: rgb(23, 26, 30); /* Set background color */
+    color: white;
+    padding-right: 30px;
+  }
+
+  .Nit a {
+    text-decoration: none; /* Optional: Removes underline */
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+    text-decoration: none;
+    color: orange;
+  }
+  
+  .Nit a:hover {
+    transform: scale(1.1); /* Scale up the element by 10% */
+  }
+
+  .Nit span{
+    color: rgb(239, 128, 27);
+    transition: font-size 0.3s ease, transform 0.3s ease;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.Nit span:hover{
+    font-size: 20px; 
+    transform: scale(1.1);
+}
+  
+  

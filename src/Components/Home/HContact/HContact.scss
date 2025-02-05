@@ -1,0 +1,147 @@
+.HContact{
+    background-color: rgb(247, 249, 250);
+}
+.hc-left{
+    border: none;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.hc-left p{
+    font-size: 18px;
+}
+
+.hc-right{
+    margin-top: 70px;
+}
+
+.hc-right p{
+    font-size: 17px;
+}
+
+.hc-logo-o{
+  border: none;
+  width: 90px;
+  height: 90px;  
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247, 233, 229);
+}
+
+.hc-logo-i{
+    border: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(247, 217, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.c-hr{
+    width: 100%;
+}
+
+.down-cont{
+    margin-top: 15px;
+}
+.cont p{
+    font-size: 18px;
+    color: grey;
+}
+
+.cont span{
+    color: rgb(239, 128, 27);
+    transition: font-size 0.3s ease, transform 0.3s ease;
+    font-size: 18px;
+}
+
+.cont span:hover{
+    font-size: 20px; 
+    transform: scale(1.1);
+}
+
+.cont a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.cont a:hover{
+    color: rgb(0, 175, 239);
+   
+}
+
+input, select, textarea{
+    margin-top: 30px;
+}
+
+input, select{
+    padding: 20px 0px !important;
+}
+
+input::placeholder{
+padding: 10px;
+}
+
+.custom-select {
+    padding: 20px !important; 
+  }
+
+
+
+.fbtn {
+    position: relative;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(243, 92, 39);
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 0.4s ease-in-out;
+}
+
+
+
+.fbtn::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 0;
+height: 100%;
+background-color: rgb(3, 15, 39);
+z-index: -1;
+transition: width 0.4s ease-in-out;
+}
+
+.fbtn:hover::before {
+width: 100%;
+}
+
+.fbtn:hover {
+color: white;
+}
+
+.icon-style {
+    font-size: 50px; 
+    color: rgb(243, 92, 39); 
+  }
+
+  .p-icon{
+    font-size: 40px !important;
+  }
+
+  .e-icon{
+    font-size: 40px !important;
+  }

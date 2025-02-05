@@ -1,0 +1,130 @@
+.Navbar {
+    position: sticky; /* Ensures it's sticky */
+    top:0px; /* Sticks at the top */
+    z-index: 1000; /* Change this to a positive value so it's on top */
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Styling for nav links */
+  .navbar-nav .nav-link {
+    font-weight: bolder;
+    font-size: 1.4em;
+    margin: 12px;
+  }
+  
+  /* Dropdown menu behavior */
+  .hover-dropdown .dropdown-menu {
+    display: none;
+  }
+  
+  /* Hover effect for nav links */
+  .nav-link-hover {
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link-hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(239, 127, 25);
+    transform: scaleX(0);
+    transition: transform 0.4s ease;
+  }
+  
+  .nav-link-hover:hover {
+    color: red !important; /* Blue color for the hover effect */
+    transform: scale(1.05);
+    text-decoration: none; /* Optional: removes underline */
+  }
+  
+  .rd-clr:hover{
+    color: red !important;
+  }
+  
+  .nav-link-hover:hover::after {
+    transform: scaleX(1);
+  }
+  
+  /* Hover effect for dropdown menu items */
+  .dropdown-item:hover {
+    color: red !important; /* Blue color for dropdown items */
+    background-color: transparent; /* Ensures the background stays transparent */
+  }
+  
+  /* Button Styling */
+  .nav-btn {
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: transparent;
+    color: #3498db !important; /* Blue color for dropdown items */
+  }
+  
+  .nav-btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .hover-dropdown:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .hover-dropdown .dropdown-menu {
+    background-color: white;
+  }
+  
+  .hover-dropdown .dropdown-item {
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button Styling */
+  .nav-btn {
+    position: relative;
+    padding: 7px 10px;
+    bottom: 7px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 2px solid rgb(239, 127, 25);
+    background-color: rgb(239, 127, 25);
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 0.4s ease-in-out;
+    border: none;
+  }
+  
+  .nav-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgb(3, 15, 39);
+    z-index: -1;
+    transition: width 0.4s ease-in-out;
+    border: none;
+  }
+  
+  .nav-btn:hover::before {
+    width: 100%;
+  }
+  
+  .nav-btn:hover {
+    color: white;
+  }
+  
+  
+  
