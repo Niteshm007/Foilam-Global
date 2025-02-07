@@ -17,6 +17,12 @@ import LAF from './Products/LAF/LAF';
 import SBLP from './Products/SBLP/SBLP';
 import Faqs from './Resources/Faqs/Faqs';
 import Gallery from './Resources/Gallery/Gallery';
+import ThreePly from './Products/Ply/3Ply/ThreePly';
+import FourPly from './Products/Ply/4Ply/FourPly';
+import Multiply from './Products/Ply/MultiPly/MultiPly';
+import Insulation1 from './Products/PInsulation/Insulation1/Insulation1';
+import Insulation2 from './Products/PInsulation/Insulation2/Insulation2';
+import Insulation3 from './Products/PInsulation/Insulation3/Insulation3';
 
 export default function App() {
   const scrollToTop = () => {
@@ -33,7 +39,13 @@ export default function App() {
       <Route path="/LAF" element={<LAF />} />
       <Route path="/LMF" element={<LMF />} />
       <Route path="/Ply" element={<Ply />} />
+      <Route path="/ThreePly" element={<ThreePly />} />
+      <Route path="/FourPly" element={<FourPly />} />
+      <Route path="/MultiPly" element={<Multiply />} />
       <Route path="/Insulation" element={<PInsulation />} />
+      <Route path="/Insulation1" element={<Insulation1 />} />
+      <Route path="/Insulation2" element={<Insulation2 />} />
+      <Route path="/Insulation3" element={<Insulation3 />} />
       <Route path="/SBLP" element={<SBLP />} />
       <Route path="/Glr" element={<Gallery />} />
       <Route path="/Faqs" element={<Faqs />} />

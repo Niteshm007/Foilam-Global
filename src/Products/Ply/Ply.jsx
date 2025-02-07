@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import "./Ply.scss";
 import Plyimg from "../../Images/Ply .png";
-import FourPly from "../../Images/4Ply.png";
+import FourPly from "../../Images/4Ply2.png";
 import MultiPly from "../../Images/MultiPly.png";
 import { Link } from "react-router-dom";
 

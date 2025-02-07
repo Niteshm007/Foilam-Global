@@ -88,7 +88,7 @@ export default function OProduct() {
                       <div className="hover-overlay">
                         <div className="second-txt">
                         Laminated Aluminium Foil / Metlized Film
-                          <Link className="dropdown-item" to="/Ply">
+                          <Link className="dropdown-item" to="/LAF">
                             Read More
                           </Link>
                         </div>
@@ -109,7 +109,7 @@ export default function OProduct() {
                       <div className="hover-overlay">
                         <div className="second-txt">
                         Laminated Aluminium Foil / Metalized Paper
-                          <Link className="dropdown-item" to="/Insulation">
+                          <Link className="dropdown-item" to="/LMF">
                             Read More
                           </Link>
                         </div>
@@ -130,7 +130,7 @@ export default function OProduct() {
                       <div className="hover-overlay">
                         <div className="second-txt">
                         3/4 Ply Laminated Products
-                          <Link className="dropdown-item" to="/Metalized">
+                          <Link className="dropdown-item" to="/Ply">
                             Read More
                           </Link>
                         </div>
@@ -159,7 +159,7 @@ export default function OProduct() {
                       <div className="hover-overlay">
                         <div className="second-txt">
                         Insulation Material
-                          <Link className="dropdown-item" to="/Food">
+                          <Link className="dropdown-item" to="/Insulation">
                             Read More
                           </Link>
                         </div>
@@ -180,7 +180,7 @@ export default function OProduct() {
                       <div className="hover-overlay">
                         <div className="second-txt">
                         Solvant Based Laminated Products
-                          <Link className="dropdown-item" to="/Food">
+                          <Link className="dropdown-item" to="/SBLP">
                             Read More
                           </Link>
                         </div>
