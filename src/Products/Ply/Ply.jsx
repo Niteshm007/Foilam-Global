@@ -6,6 +6,7 @@ import FourPly from "../../Images/4Ply2.png";
 import MultiPly from "../../Images/MultiPly.png";
 import { Link } from "react-router-dom";
 
+
 export default function Ply() {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -50,6 +51,7 @@ export default function Ply() {
     hidden: { opacity: 0, scale: 0.8 },
     visible: { opacity: 1, scale: 1, transition: { duration: 1, ease: 'easeInOut' } },
   };
+  
 
   return (
     <div className="Ply container m-t m-tb">
