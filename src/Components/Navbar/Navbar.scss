@@ -42,6 +42,10 @@
     transform: scale(1.05);
     text-decoration: none; /* Optional: removes underline */
   }
+
+  .nav-link:focus{
+    color: red !important;
+  }
   
   .rd-clr:hover{
     color: red !important;
@@ -102,7 +106,6 @@
     font-size: 17px;
     border: 1px solid;
     font-family: inherit;
-    text-transform: uppercase;
     color: var(--color);
     z-index: 1;
   }

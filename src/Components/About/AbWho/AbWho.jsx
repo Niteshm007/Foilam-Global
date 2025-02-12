@@ -1,6 +1,6 @@
 import React from "react";
 import "./AbWho.scss";
-import Machine from "../../../Images/MCN.png";
+import Machine from "../../../Images/MCN2.png";
 
 export default function AbWho() {
   return (

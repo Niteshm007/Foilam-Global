@@ -1,32 +1,33 @@
-*{
+* {
   font-family: Arial;
   margin: 0;
   padding: 0;
 }
 
-p{
+p {
   font-size: 18px !important;
 }
 
-.p-txt-gry{
-  color:rgb(103, 103, 107) !important;
+.p-txt-gry {
+  color: rgb(103, 103, 107) !important;
 }
 
-.m-t{
+.m-t {
   margin-top: 50px !important;
 }
 
-.m-tb{
+.m-tb {
   margin-bottom: 50px;
 }
 
-.pr-sz{
+.pr-sz {
   font-size: 18px !important;
 }
 
-.mhd{
+.mhd {
   font-size: 45px !important;
 }
-.m-hd{
+
+.m-hd {
   font-size: 20px !important;
 }

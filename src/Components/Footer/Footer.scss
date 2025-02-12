@@ -3,7 +3,7 @@
 }
 
 .w-f{
-  color: white;
+  color: black;
   padding-top: 50px;
   padding-bottom: 20px;
 }
@@ -43,11 +43,11 @@ font-size: 20px;
 }
 
 .ftr-icn:hover{
-  color: rgb(239, 127, 27);
+  color: rgb(24, 51, 26);
 }
 
 .Footer .mid-f ul li a {
-  color: white; /* Set your preferred base link color (blue in this example) */
+  color: black; /* Set your preferred base link color (blue in this example) */
   text-decoration: none; /* Remove underline */
   font-weight: normal; /* Optional: make the link font weight normal */
   transition: color 0.3s ease; /* Smooth transition for color change on hover */
@@ -56,7 +56,7 @@ font-size: 20px;
 
 /* Hover effect for links */
 .Footer .mid-f ul li a:hover {
-  color: #FF5722; /* Change color on hover (red in this example) */
+  color: #FF5722; 
 }
 
 

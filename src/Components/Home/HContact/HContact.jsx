@@ -223,18 +223,18 @@ export default function HContact() {
                           onChange={handleChange}
                         >
                           <option value="">Select Product</option>
-                          <option value="product1">Ply Laminated Foil</option>
+                          <option value="product1"> Laminated Aluminium Foil / Metlized Film</option>
                           <option value="product2">
-                            Insulation Industries
+                          Laminated Aluminium Foil / Metalized Paper
                           </option>
                           <option value="product3">
-                            Metalized Film Laminated Material
+                          3/4 Ply Laminated Products
                           </option>
                           <option value="product4">
-                            Barrier Film Insulation Material
+                          Insulation Material
                           </option>
                           <option value="product5">
-                            Food & Baverages Industries
+                          Solvant Based Laminated Products
                           </option>
                         </select>
                         {errors.product && (
