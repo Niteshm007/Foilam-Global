@@ -61,7 +61,7 @@
   .nav-btn {
     color: white;
     border: none;
-    padding: 8px 15px;
+    padding: 8px 15px !important;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
@@ -90,41 +90,58 @@
   
   /* Button Styling */
   .nav-btn {
+    --color: rgb(78, 173, 217);
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: 3em;
     position: relative;
-    padding: 7px 10px;
-    bottom: 7px;
-    font-size: 20px;
-    border-radius: 30px;
-    border: 2px solid rgb(78, 173, 217);
-    background-color: rgb(78, 173, 217);
-    color: white;
-    cursor: pointer;
     overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
     z-index: 1;
-    transition: color 0.4s ease-in-out;
-    border: none;
+  }
+  
+  .nav-btn::before, .nav-btn::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
   }
   
   .nav-btn::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color: rgb(3, 15, 39);
-    z-index: -1;
-    transition: width 0.4s ease-in-out;
-    border: none;
+    top: -1em;
+    left: -1em;
   }
   
-  .nav-btn:hover::before {
-    width: 100%;
-  }
-  
-  .nav-btn:hover {
+  .nav-btn::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+   
+   .nav-btn:hover::before, .nav-btn:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+   
+   .nav-btn:hover {
     color: white;
-  }
-  
+   }
+   
+   .nav-btn:active {
+    filter: brightness(.8);
+   }
+   
   
   

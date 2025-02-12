@@ -62,6 +62,8 @@
     color: rgb(239, 128, 27);
     transition: font-size 0.3s ease, transform 0.3s ease;
     font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    nav-downwidth: abs($number: 0);
 }
 
 .cont span:hover{
