@@ -5,11 +5,9 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion"; // Import motion from Framer Motion
 import "./Navbar.scss";
 import Logo from "../../Images/Logo 4.png";
-
 export default function ResponsiveNavbar() {
   // State to control the collapse behavior
   const [expanded, setExpanded] = useState(false);
-  const [dropdownOpen, setDropdownOpen] = useState(false); // Add state for dropdown visibility
 
   // Function to handle closing the navbar when a menu item is clicked
   const handleNavLinkClick = () => {
@@ -82,26 +80,17 @@ export default function ResponsiveNavbar() {
                     About
                   </Nav.Link>
                 </motion.div>
-
-                {/* Products dropdown */}
-                <li
-                  className="nav-item dropdown nav-link-hover"
-                  onMouseEnter={() => setDropdownOpen(true)} // Open dropdown on hover
-                  onMouseLeave={() => setDropdownOpen(false)} // Close dropdown on unhover
-                >
+                <li className="nav-item dropdown nav-link-hover">
                   <a
                     className="nav-link dropdown-toggle rd-clr"
                     href="/"
                     role="button"
                     data-bs-toggle="dropdown"
-                    aria-expanded={dropdownOpen} // Set aria-expanded based on the dropdown state
+                    aria-expanded="false"
                   >
                     Products
                   </a>
-                  <ul
-                    className={`dropdown-menu nav-link-hover ${dropdownOpen ? 'show' : ''}`} // Show the dropdown if it's open
-                    aria-labelledby="navbarDropdown"
-                  >
+                  <ul className="dropdown-menu nav-link-hover">
                     <li>
                       <Link
                         className="dropdown-item"
@@ -149,8 +138,8 @@ export default function ResponsiveNavbar() {
                     </li>
                   </ul>
                 </li>
-
                 {/* Resources dropdown */}
+
                 <motion.div
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 0.2 }}
@@ -164,7 +153,7 @@ export default function ResponsiveNavbar() {
                     Gallery
                   </Nav.Link>
                 </motion.div>
-
+                
                 <motion.div
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 0.2 }}
