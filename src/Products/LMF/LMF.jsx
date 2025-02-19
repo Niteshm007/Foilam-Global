@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./LMF.scss";
 import { motion } from "framer-motion";
 import LMFImg from "../../Images/LMF.png";
-import LAFP1 from "../../Images/LAFP1.png";
+import LMFP1 from "../../Images/LMFP1.jpg";
 import { Link } from "react-router-dom";
 
 export default function LMF() {
@@ -207,7 +207,7 @@ export default function LMF() {
             >
               <div className="card" style={{ width: "20rem" }}>
                 <img
-                  src={LAFP1}
+                  src={LMFP1}
                   className="card-img-top"
                   alt="Card image cap"
                 />
