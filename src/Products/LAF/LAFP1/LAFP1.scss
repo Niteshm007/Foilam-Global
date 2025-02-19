@@ -1,0 +1,68 @@
+/* Main styles */
+.hd {
+  background-color: rgb(247, 247, 247);
+  border-left: 5px solid orangered;
+}
+
+.hd h3 {
+  margin-left: 3px;
+  padding: 5px;
+}
+
+.inner-ply h1 {
+  font-size: 2.5em;
+  text-align: center; /* Center the text within h1 */
+  margin: 0; /* Remove default margin */
+  color: #333; /* Set text color for better visibility */
+}
+
+.mn-cont span {
+  color: rgb(0, 175, 239);
+  font-weight: bolder;
+}
+
+.m-cont span{
+  color: rgb(0, 175, 239);
+  font-weight: bolder;
+}
+.mn-cont p {
+  font-size: 19px;
+  text-align: justify;
+  max-width: 100%;
+  text-align: center;
+}
+
+.p-txt {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.mn-im {
+  border: 1px solid rgb(78, 173, 217);
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+.mn-im img {
+  width: 100%;
+  height: 50vh;
+  border-radius: 50px;
+  border: 3px solid rgb(78, 173, 217);
+  padding: 0px;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  /* Mobile devices */
+  .hd h3 {
+    overflow: hidden; /* Hide overflow if necessary */
+    font-size: 1.2em; /* Ensure it's centered */
+  }
+
+  .inner-ply h1 {
+    font-size: 2em;
+    text-align: center; /* Center the text within h1 */
+    margin: 0; /* Remove default margin */
+    color: #333; /* Set text color for better visibility */
+  }
+}

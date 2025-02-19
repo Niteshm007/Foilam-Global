@@ -31,3 +31,12 @@ p {
 .m-hd {
   font-size: 20px !important;
 }
+
+.df{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ac{
+  text-align: center;
+}
