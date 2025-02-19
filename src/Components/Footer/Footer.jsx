@@ -36,29 +36,29 @@ export default function Footer() {
               <h3>Our Products</h3>
               <ul>
                 <li>
-                  <Link to="/Ply">
+                  <Link to="/LAF">
                     {" "}
                     Laminated Aluminium Foil / Metlized Film
                   </Link>{" "}
                   {/* Link to PInsulation page */}
                 </li>
                 <li>
-                  <Link to="/Insulation">
+                  <Link to="/LMF">
                     {" "}
                     Laminated Aluminium Foil / Metalized Paper
                   </Link>{" "}
                   {/* Link to PInsulation page */}
                 </li>
                 <li>
-                  <Link to="/Metalized">3/4 Ply Laminated Products</Link>{" "}
+                  <Link to="/Ply">3/4 Ply Laminated Products</Link>{" "}
                   {/* Link to PInsulation page */}
                 </li>
                 <li>
-                  <Link to="/Barrier">Insulation Material</Link>{" "}
+                  <Link to="/Insulation">Insulation Material</Link>{" "}
                   {/* Link to PInsulation page */}
                 </li>
                 <li>
-                  <Link to="/Food">Solvant Based Laminated Products</Link>{" "}
+                  <Link to="/SBLP">Solvant Based Laminated Products</Link>{" "}
                   {/* Link to PInsulation page */}
                 </li>
                 {/* <li>
